@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Watcher</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: #000000;">
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #4C0467;">
+        <div class="container-fluid">
+            <div class="d-flex w-100 justify-content-between align-items-center">
+                <div>
+                    <a href="#"><img src="../static/истроия.svg" alt="История просмотра" class="img-thumbnail" style="width: 50px; height: 50px;"></a>
+                    <a class="text-white" href="#">История просмотра</a>
+                </div>
+                <a href="#"><img src="../static/123.png" alt="лого" style="width: 201px; height: 63px;"></a>
+                <div style="color: #4C0467;">''''''''''''''''''````````d vcie;fd k''''''''''''''''''''</div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основная часть страницы -->
+    <main class="container">
+        <div class="row mt-4">
+            <form class="d-flex justify-content-center" role="search">
+                <input class="form-control me-2 w-50 rounded-5" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button class="btn btn-outline-success rounded-5" type="submit" style="background-color: #4C0467; color: white">Найти</button>
+            </form>
+              
+        </div>
+
+
+        <section class="services mt-4" style="background-color: #000000; display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Три карточки на строке */
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto; /* Центрируем блок */
+        border: 1px solid #ccc; /* Серая рамка */
+        border-radius: 45px; /* Закругленные углы */
+        margin-top: 30px;">
+            <div style="color:white; font-size: 24px;">История просмотра</div>
+            <div style="color:#000000;">Рекомендации для Вас</div>
+
+                <div class="service-card" style="background-color: #1F1B1F;
+        border-radius: 30px;
+        border: 1px solid #000000; /* Серая рамка */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        column-gap: 10%; /* Контент растягивается, что позволяет привязать его к низу */
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.2s ease;">
+                    <div class="pictures">
+                        <img src="../static/image 2.svg" alt="picture" style="width: 150px;
+                        height: auto;
+                        margin-bottom: 10px;">
+                    </div>
+                    <div style="display: flex; flex-direction: column; text-align: left;">
+                        <h3 style="color:white">Пираты Карибского моря</h3>
+                        <div style="color: #1F1B1F">uggv;ihvb</div>
+                        <div style="color:#1F1B1F;">Жанр: Приключения</div>
+                        <div style="color:#1F1B1F;">Жанр: Приключения</div>
+                        <div style="color:#1F1B1F;">Продолжительность: 130 мин.</div>
+                        <div style="color:white;">Дата просмотра: 26.10.2024</div>
+                        <div style="color:#1F1B1F;">Продолжительность: 130 мин.</div>
+                        <button class="btn btn-danger btn-sm rounded-5">Удалить из истории просмотра</button>
+                    </div>
+                </div>
+            
+                
+
+        </section>
+        
+    </main>
+
+    <!-- Скрипты Bootstrap -->
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
